@@ -1,1 +1,3 @@
+#This is a command line for Ubuntu to get the IP address ,just like 192.168.111.128
+
 ifconfig | grep “inet addr” | awk -F: ‘{print $2}’
